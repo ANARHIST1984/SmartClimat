@@ -1,0 +1,82 @@
+{
+  "config": {
+    "step": {
+       "zeroconf": {
+        "title": "Запустить поиск устройств по MDNS?",
+        "description": "Нажмите 'Подтвердить', чтобы продолжить"
+      },
+      "device": {
+        "title": "Выбор устройства",
+        "description": "Пожалуйста, выберите устройство",
+        "data": {
+          "device": "Устройство"
+        }
+      },
+      "user": {
+        "title": "Выбор типа объекта",
+        "description": "Пожалуйста, выберите, что вы хотите добавить",
+        "data": {
+          "type": "Тип"
+        }
+      },
+      "schedule": {
+        "title": "Настройка расписания",
+        "description": "Пожалуйста, введите все настройки",
+        "data": {
+          "name": "Название расписания",
+          "temperature": "Температура",
+          "start_time": "Начало работы",
+          "end_time": "Конец работы",
+          "device": "Термостат Lytko",
+          "SCHEDULE_DAYS": "Дни недели",
+          "HOLIDAY_DAYS": "Выполнять в праздничные дни"
+        }
+      },
+      "device_name": {
+        "title": "Введите имя устройства",
+        "description": "Введите имя для выбранного устройства",
+        "data": {
+          "name": "Имя устройства"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Не удалось подключиться к устройству",
+      "no_devices_found": "Устройства не найдены"
+    },
+    "abort": {
+      "no_devices_found": "Не обнаружены устройства Lytko",
+      "already_configured": "Устройство уже сконфигурировано"
+    }
+  },
+  "options": {
+    "step": {
+      "init" : {
+        "title": "Настройки Lytko",
+        "data": {
+           "thermistor_resistance": "Сопротивление термистора",
+           "alice_login": "Логин Алисы",
+           "alice_password": "Пароль Алисы",
+           "SELECTED_THERMOMETER": "Внешний датчик",
+           "without_external_sensor": "Без внешного датчика"
+        }
+      },
+      "schedule": {
+        "title": "Настройки расписания",
+        "data": {
+         "name": "Название расписания",
+          "temperature": "Температура",
+          "start_time": "Начало работы",
+          "end_time": "Конец работы",
+          "device": "Термостат Lytko",
+          "SCHEDULE_DAYS": "Дни недели",
+          "HOLIDAY_DAYS": "Выполнять в праздничные дни"
+        }
+      }
+    },
+    "error": {
+      "thermistor_failed": "Проверьте связь с устройством",
+      "alice_auth_failed": "Проверьте связь с устройством, либо логин или пароль"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "domain": "lytko",
+  "name": "Lytko",
+  "codeowners": ["@lytkog"],
+  "config_flow": true,
+  "dependencies": [],
+  "homekit": {},
+  "documentation": "https://www.home-assistant.io/integrations/detailed_hello_world_push",
+  "iot_class": "local_polling",
+  "requirements": ["requests", "websockets"],
+  "ssdp": [],
+  "version": "0.1.0",
+  "zeroconf": [
+    {"type": "_hap._tcp.local.", "hostname":  "lytko*"}
+  ],
+  "integration_type": "device"
+}
