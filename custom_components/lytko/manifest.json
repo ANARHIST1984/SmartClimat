@@ -1,7 +1,7 @@
 {
   "domain": "lytko",
   "name": "Lytko",
-  "codeowners": ["@lytkog"],
+  "codeowners": ["@ANARHIST1984"],
   "config_flow": true,
   "dependencies": [],
   "homekit": {},
